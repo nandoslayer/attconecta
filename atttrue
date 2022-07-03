@@ -21,7 +21,7 @@
       "PASS": ""
     }
   ],
-  "Networks": [ 
+  "Networks": [
 {
    "Name": "INJECT PROXY 1",
    "FLAG": "vivo",
@@ -60,6 +60,26 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+  },
+  {
+   "Name": "INJECT TLS 5",
+   "FLAG": "vivo",
+   "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "cdnjs.cloudflare.com",
+   "TlsIP": "104.18.7.80",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },  
+  {
+   "Name": "INJECT TLS 6",
+   "FLAG": "vivo",
+   "Payload": "GET wss://live.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "live.vivo.com.br",
+   "TlsIP": "104.24.10.16",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
   },
     {
       "Name": "💜 VIVO CLOUD",
