@@ -1,11 +1,11 @@
 {
-  "Version": "1.3.5",
+  "Version": "1.3.6",
   "ReleaseNotes": "👋 ATUALIZAÇÃO DISPONÍVEL! 👋\n🚀 CLIQUE EM ATUALIZAR 🚀",
-  "UrlUpdate": "http://web.imperialnet.xyz/update.php",
+  "UrlUpdate": "https://raw.githubusercontent.com/nandoslayer/attconecta/main/atttrue?token=GHSAT0AAAAAABTXHNMWITQWFDGRZ7BIKQVMYWBEUUQ",
   "Sms": "https://bitbin.it/LUIcTECJ/raw/",
   "EmailFeedback": "",
   "UrlContato": "",
-  "UrlTermos": "http://web.imperialnet.xyz/apps/termos.php",
+  "UrlTermos": "https://bitbin.it/7Bhdn4nl/raw/",
   "CheckUser": "true",
   "UdpPort": "7290;7291;7292;7293;7294;7295;7296;7297;7298;7299;7300",
   "Servers": [
